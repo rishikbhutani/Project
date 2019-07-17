@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FIDB", "FIDB.sqlproj", "{1CFED12F-8DBC-4986-9A7D-97E7B23D2EB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{10FD7136-0900-411E-92FF-F076783C5CB5}"
+	ProjectSection(SolutionItems) = preProject
+		FIDB.sql = FIDB.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CFED12F-8DBC-4986-9A7D-97E7B23D2EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CFED12F-8DBC-4986-9A7D-97E7B23D2EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CFED12F-8DBC-4986-9A7D-97E7B23D2EB8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1CFED12F-8DBC-4986-9A7D-97E7B23D2EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CFED12F-8DBC-4986-9A7D-97E7B23D2EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CFED12F-8DBC-4986-9A7D-97E7B23D2EB8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FDB1DF2-9C81-494C-8240-87F63F178AE0}
+	EndGlobalSection
+EndGlobal

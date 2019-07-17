@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HRModelStoreContainer" CdmEntityContainer="HREntities">
+    <FunctionImportMapping FunctionImportName="myproc" FunctionName="HRModel.Store.myproc">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HRModel.myproc_Result">
+          <ScalarProperty Name="EID" ColumnName="EID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="DOJ" ColumnName="DOJ" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Sal" ColumnName="Sal" />
+          <ScalarProperty Name="Comm" ColumnName="Comm" />
+          <ScalarProperty Name="MID" ColumnName="MID" />
+          <ScalarProperty Name="DID" ColumnName="DID" />
+          <ScalarProperty Name="Jobs" ColumnName="Jobs" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="myprocone1" FunctionName="HRModel.Store.myprocone1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HRModel.myprocone1_Result">
+          <ScalarProperty Name="EID" ColumnName="EID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="DOJ" ColumnName="DOJ" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Sal" ColumnName="Sal" />
+          <ScalarProperty Name="Comm" ColumnName="Comm" />
+          <ScalarProperty Name="MID" ColumnName="MID" />
+          <ScalarProperty Name="DID" ColumnName="DID" />
+          <ScalarProperty Name="Jobs" ColumnName="Jobs" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="myprocone" FunctionName="HRModel.Store.myprocone">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HRModel.myprocone_Result">
+          <ScalarProperty Name="EID" ColumnName="EID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="DOJ" ColumnName="DOJ" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Sal" ColumnName="Sal" />
+          <ScalarProperty Name="Comm" ColumnName="Comm" />
+          <ScalarProperty Name="MID" ColumnName="MID" />
+          <ScalarProperty Name="DID" ColumnName="DID" />
+          <ScalarProperty Name="Jobs" ColumnName="Jobs" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
